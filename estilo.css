@@ -1,0 +1,66 @@
+body {
+ 
+  background-image: url('https://images.pexels.com/photos/37173481/pexels-photo-37173481.jpeg?cs=srgb&dl=pexels-kienvirak-37173481.jpg&fm=jpg');
+  background-size: cover;
+  background-position: center;        
+  background-repeat: no-repeat;        
+  background-attachment: fixed;        
+
+border: 25px outset red;
+    border-color: red green yellow blue;
+    border-width: 35px 35px 35px 35px 35px;
+    border-style: solid;
+      
+}
+
+
+
+
+
+#red {
+    color: red;
+}
+#green {
+    color: green;
+}
+#blue {
+    color: blue;
+}
+#white {
+    color: white;
+}
+#black {
+    color: black;
+}
+body {
+    color: cyan;
+}
+body {
+    font-size: 30px;
+}
+.container-tabelas {
+  display: flex;       
+  align-items: flex-start; 
+  gap: 20px;          
+}
+
+.tabela-carros {
+     background-color: white; 
+     color: black;
+  border: 1px solid black;
+  border-spacing: 2px; /* Cria aquele efeito de bordas separadas da imagem */
+  font-family: serif;   /* Fonte estilo jornal/antiga igual à foto */
+}
+
+.tabela-carros th, .tabela-carros td {
+  border: 1px solid gray;
+  padding: 5px 10px;
+  text-align: left;
+}
+
+.tabela-carros th {
+  font-weight: bold;
+}
+
+
+
